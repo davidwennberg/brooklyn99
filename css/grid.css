@@ -33,12 +33,12 @@
     display: flex;
     justify-content: space-between;
 }
-/*
-.content{
+.bottom-pics{
     grid-column: 4 / -3;
-    grid-row: 6 / auto;
+    grid-row: 8 / 9;
+    display: flex;
+    justify-content: space-between;
 }
-*/
 .character-content{
     grid-column: 3 / -3;
     grid-row: 6 / auto;
