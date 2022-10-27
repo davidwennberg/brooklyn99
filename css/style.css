@@ -14,7 +14,16 @@
     position: fixed;
 }
 .top-pics{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.604);
+    
+}
+.mid-pics{
+    background-color: rgba(255, 255, 255, 0.604);
+    
+}
+.bottom-pics{
+    background-color: rgba(255, 255, 255, 0.604);
+    
 }
 .character-content{
     background-color: white;
@@ -26,8 +35,10 @@
 body{
     background-color: yellow;
 }
+
 a{
     text-decoration: none;
+    color: black;
 }
 a:visited{
     color:black;
