@@ -55,7 +55,7 @@ header{
     display: flex;
     justify-content: center;
 }
-@media only screen and (max-width: 480){
+@media only screen and (max-width: 1024){
     .container{
         display: grid;
         grid-template-columns: repeat(12, 1fr);
@@ -80,19 +80,19 @@ header{
         justify-content: center;
     }
     .top-pics{
-        grid-column: 4 / -3;
+        grid-column: 3 / -1;
         grid-row: 8 / 9;
         display: flex;
         justify-content: space-between;
     }
     .mid-pics{
-        grid-column: 4 / -3;
+        grid-column: 3 / -1;
         grid-row: 9 / 10;
         display: flex;
         justify-content: space-between;
     }
     .bottom-pics{
-        grid-column: 4 / -3;
+        grid-column: 3 / -1;
         grid-row: 10 / 11;
         display: flex;
         justify-content: space-between;
