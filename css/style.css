@@ -9,9 +9,7 @@ header{
     background-size: cover;
 }
 /* sidomeny för navigering på sidan*/
-.menu{
-    background-color: rgb(206, 155, 0);
-}
+
 .side-menu{
     list-style: none;
     position: fixed;
