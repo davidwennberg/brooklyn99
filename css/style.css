@@ -1,50 +1,57 @@
-/* header på landingssidan*/
+/*header på landingssidan*/
 header{
     background-image: url(../img/99.webp);
     background-size: cover;
 }
-/* header på sidan om karaktärer*/
+/*header på sidan om karaktärer*/
 .character-header{
     background-image: url(../img/JakeS5.webp);
     background-size: cover;
 }
-/* sidomeny för navigering på sidan*/
-
+/*sidomeny för navigering på sidan*/
 .side-menu{
     list-style: none;
     position: fixed;
     background-color: rgb(206, 155, 0);
 }
+/*Den första raden av bilder*/
 .top-pics{
     background-color: rgba(255, 255, 255, 0.604);
     
 }
+/*Den andra raden av bilder*/
 .mid-pics{
     background-color: rgba(255, 255, 255, 0.604);
     
 }
+/*Den tredje raden av bilder*/
 .bottom-pics{
     background-color: rgba(255, 255, 255, 0.604);
     
 }
+/*Innehållstexten på sidan om kraktärer*/
 .character-content{
     background-color: white;
 }
+/*Har tar jag bort all padding och margin på sidorna*/
 *{
     padding: 0;
     margin: 0;
 }
+/*Här ändrar jag bakgrundsfärgen från vit till gul*/
 body{
     background-color: yellow;
 }
-
+/*Här stylar jag länkarna så att punkterna försvinner och ändrar färg till svart*/
 a{
     text-decoration: none;
     color: black;
 }
+/*Här ser jag till att länkarna förblir svarta efter man klickat på dem*/
 a:visited{
     color:black;
 }
+/*Här jag jag så att länkarna ändrar färg till rosa när man hovrar över dem med muspekaren*/
 a:hover{
     color: hotpink;
 }

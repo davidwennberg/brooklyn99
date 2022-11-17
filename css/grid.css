@@ -1,60 +1,70 @@
+/*Här definerar jag min grid*/
 .container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-auto-rows: minmax(40px, auto);
     grid-gap: 5px;
 }
-
+/*Här placerar jag min header*/
 header{
     grid-column: 1 / -1;
     grid-row: 1 / 6;
     display: flex;
     justify-content: center;
 }
+
 .character-header{
     grid-column: 1 / -1;
     grid-row: 1 / 6;
 }
+/*Här placerar jag menyn till vänster på sidan*/
 .menu{
     grid-column: 1 / 3;
     grid-row: 6 / 8;
     display: flex;
     justify-content: center;
 }
+/*Här placerar jag den förta raden av bilder*/
 .top-pics{
     grid-column: 4 / -3;
     grid-row: 8 / 9;
     display: flex;
     justify-content: space-between;
 }
+/*Här placerar jag den adnra raden av bilder*/
 .mid-pics{
     grid-column: 4 / -3;
     grid-row: 9 / 10;
     display: flex;
     justify-content: space-between;
 }
+/*Här placerar jag den tredje raden av bilder*/
 .bottom-pics{
     grid-column: 4 / -3;
     grid-row: 10 / 11;
     display: flex;
     justify-content: space-between;
 }
+/*Här placerar jag innehållet på karaktärsidan*/
 .character-content{
     grid-column: 3 / -3;
     grid-row: 6 / auto;
 }
+/*Här placerar jag rubriken*/
 .headline{
     grid-column: 3 / -3;
     grid-row: 6 / 7;
     display: flex;
     justify-content: center;
 }
+/*Här placerar jag underrubriken*/
 .sub-headline{
     grid-column: 3 / -3;
     grid-row: 7 / 8;
     display: flex;
     justify-content: center;
 }
+/*Här definerar jag en ny grid för skärmstorlekar upp till 1024 pixlar*/
 @media only screen and (max-width: 1024){
     .container{
         display: grid;
